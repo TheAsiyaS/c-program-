@@ -10,6 +10,14 @@ printf("sum is : %d",&sum);
 }
 printf("final sum is : %d",&sum);
 
+//----even number print
+for(i=0;i<=50;i++){
+    if (i%2==0)
+    {
+       printf("even number : %d",&i);
+    }
+    
+}
 
     return 0;
 }  
